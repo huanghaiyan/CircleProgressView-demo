@@ -17,7 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    KACircleProgressView *progress = [[KACircleProgressView alloc] initWithFrame:CGRectMake(100, 100, 100, 100)];
+    KACircleProgressView *progress = [[KACircleProgressView alloc] initWithFrame:CGRectMake(80, 100, 100, 100)];
     [self.view addSubview:progress];
     progress.trackColor = [UIColor blackColor];
     progress.progressColor = [UIColor orangeColor];
